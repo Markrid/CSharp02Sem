@@ -16,8 +16,8 @@ Console.Write("Пожалуйста введите первое число дл�
 int FirstNum = Convert.ToInt32(Console.ReadLine());
 Console.Write("Пожалуйста введите второе число для сравнения: ");
 int SecondNum = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Идёт обратка запроса...");
-Console.WriteLine("Спасибо за ожидание");
+Console.WriteLine("Идёт обработка запроса...");
+Console.WriteLine("Спасибо за ожидание!");
 if (FirstNum == SecondNum)
 {
     Console.WriteLine(username + ", вы ввели равные числа, пожалуйста повторите попытку");
