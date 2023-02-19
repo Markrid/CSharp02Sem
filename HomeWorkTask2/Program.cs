@@ -2,7 +2,7 @@
 // Программа, которая на вход принимает два числа и выдаёт, какое число больше, а какое меньше.
 Console.Clear();
 Console.Write("Уважаемый пользователь, представьтесь!");
-string username = Console.ReadLine();
+string username = Console.ReadLine()!;
 if (username.ToLower() == "михаил")
 {
     Console.WriteLine("Здравствуйте, Михаил! Большое спасибо за семинар, всё очень понятно и доступно объясняете");
